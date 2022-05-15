@@ -1,6 +1,6 @@
 import sys
 
-POSITON = {
+POSITION = {
     0: 'Точка лежит на окружности',
     1: 'Точка принадлежит кругу',
     2: 'Точка не принадлежит кругу'
@@ -80,4 +80,4 @@ def main():
 
 if __name__ == '__main__':
     for i in main():
-        print(f'{i} - {POSITON[i]}')
+        print(f'{i} - {POSITION[i]}')
